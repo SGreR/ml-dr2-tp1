@@ -47,11 +47,6 @@ sns.pairplot(data_normalized_plot, hue='tipo', palette={'Normalizado': 'purple'}
 plt.suptitle("Pairplot: Normalizado", y=1.02)
 plt.show()
 
-
-# sns.pairplot(data_combined, hue='tipo', palette={'Original': 'teal', 'Normalizado': 'purple'})
-# plt.suptitle("Pairplot: Original vs Normalizado", y=1.02)
-# plt.show()
-
 #Heatmaps
 plt.figure(figsize=(10, 4))
 
